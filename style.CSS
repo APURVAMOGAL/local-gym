@@ -1,0 +1,131 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color: black;
+    /* background: url(Untitled\ design.png); */
+    /* background: url(fitnessgirl.avif); */
+    background: url(pexel\ scott\ 23.jpg);
+}
+
+.left{
+    display: inline-block;
+    /* background:  navy; */
+    /* padding-right: 259px; */
+    /* color: white; */
+    /* height: 25px; */
+    /* border: 2px solid red; */
+    position: absolute;
+    /* left: 15px; */
+    /* top:15px; */
+    width: 8%;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+.left img{
+    width:130px
+    
+}
+.mid{
+    display:block;
+    /* background:  navy; */
+    /* color: white; */
+    /* height: 25px; */
+    /* padding-right:910px ; */
+    width: 60%;
+    margin: 10px auto;
+    text-align: center;
+}
+.right{
+     position: absolute;
+     right: 20px;
+     top: 26px;
+     display:inline-block;
+     /* border: 2px solid yellow; */
+     width:6%;
+    /* background:  navy; */
+    padding-right: 158px;
+    color: white;
+    height: 25px;
+    /* text-align: center; */
+}
+.BTN{
+    border-radius: 10PX;
+    /* top:20px; */
+    width: 120%;
+    margin-left: 100PX;
+    display: inline-block;
+    /* color: rgb(7, 0, 0); */
+    /* background-color: black; */
+    color: black;
+    background-color: rgb(217, 182, 133);
+    height: 30px;
+    cursor: pointer;
+}
+.BTN:hover{
+    color: rgb(246, 52, 52);
+    text-decoration: underline;
+}
+.navbar{
+    height:20px;
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    /* background-color: rgb(11, 210, 144); */
+    padding-left: 50px;
+    font-size: 18px;
+}
+.navbar li a{
+    color: rgb(246, 238, 238);
+    text-decoration: none;
+    /* to avoid text line */
+    
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color:rgb(197, 156, 156);
+}
+.container{
+    border:7px solid rgb(240, 218, 186);
+    color: white;
+    margin: 90PX 200PX;
+    /* height: 50px; */
+    padding:55px 35px;
+    width:25%;
+    border-radius: 15px;
+    /* text-align: center; */
+    text-align: left;
+    
+}
+.container h1{
+ 
+   text-align: center;
+}
+.form-group input{
+    display: block;
+    width:300px;
+    height: 25px;
+    padding: 1px;
+    border: 2px solid black;
+    margin: 9px auto;
+    /* font size: 25PX; */
+    /* BORDER RADIUS:8PX; */
+    text-align: left;
+    background-color: rgb(212, 250, 238);
+    color: black;
+
+}
+.SUBMITBTN{
+    DISPLAY:block;
+    width:60%;
+    MARGIN:20PX AUTO;
+    background-color: rgb(217, 182, 133) ;
+    border-radius: 5px;
+    height: 30px;
+}
+.SUBMITBTN:hover{
+    color:rgb(240, 28, 28);
+    text-decoration: underline;
+}
